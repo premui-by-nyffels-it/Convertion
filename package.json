@@ -1,6 +1,6 @@
 {
   "name": "@premui/convertion",
-  "version": "0.1.2",
+  "version": "0.1.0",
   "description": "This project is part of the PremUI library and contains all the functions, classes and services needed for the convertion module of premui.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -45,8 +45,6 @@
     "typescript": "4.5.5"
   },
   "dependencies": {
-    "@types/mysql": "2.15.20",
-    "mysql": "2.18.1",
     "rxjs": "7.5.2"
   }
 }
