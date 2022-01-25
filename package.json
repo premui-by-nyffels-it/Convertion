@@ -1,0 +1,52 @@
+{
+  "name": "@premui/convertion",
+  "version": "0.1.2",
+  "description": "This project is part of the PremUI library and contains all the functions, classes and services needed for the convertion module of premui.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+		"framework",
+		"convertion",
+		"typescript",
+		"nodejs",
+		"premui",
+		"premium",
+		"premium ui"
+	],
+  "author": {
+    "name": "Nyffels IT",
+    "email": "chesney@nyffels-it.be",
+    "url": "https://nyffels-it.be"
+  },
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://gitlab.com/nyffels-it/premui-by-nyffels-it/convertion/-/issues"
+  },
+  "contributors": [
+    {
+      "email": "chesney@nyffels.be",
+      "name": "Chesney Nyffels",
+      "url": "https://nyffels.be"
+    }
+  ],
+  "repository": {
+    "url": "https://gitlab.com/nyffels-it/premui-by-nyffels-it/convertion",
+    "type": "GIT"
+  },
+  "private": false,
+  "homepage": "https://premui.be",
+  "devDependencies": {
+    "typescript": "4.5.5"
+  },
+  "dependencies": {
+    "@types/mysql": "2.15.20",
+    "mysql": "2.18.1",
+    "rxjs": "7.5.2"
+  }
+}
