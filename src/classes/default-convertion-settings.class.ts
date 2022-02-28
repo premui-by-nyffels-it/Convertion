@@ -1,8 +1,6 @@
 import { ConvertionSettings } from "../interfaces/convertion-settings.interface";
 
 export class DefaultConvertionSettings {
-  private static settings: ConvertionSettings;
-
   public static default(): ConvertionSettings {
     return {
       dateFormat: 'DD/MM/YYYY',
